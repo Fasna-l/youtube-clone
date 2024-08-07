@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto',sans-serif,Arial;
+    box-sizing: border-box;
+}
+body{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.main-body{
+    width: 100%;
+    height: 2000px;
+    background: #fff;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    position: sticky;
+}
+.header:hover{
+    position: fixed;
+}
+.YouTube-logo{
+    width: 114px;
+    height: 54px;
+    padding-left: 25px;
+    padding-top: 7px;
+    float: left;
+    
+}
+.menubar{
+    width: 30px;
+    height: 38px;
+    padding-left: 10px;
+    float: left;
+    padding-top: 17px;
+    margin-left: 16px;   
+}
+.menubar:hover{
+    background: #e6e6e6;
+    border-radius: 50%;
+    
+}
+.left-section{
+    float: left;
+    width: 20%;
+    height: 100px;
+
+}
+.middle-section{
+    float: left;
+    width: 60%;
+    height: 100px;
+    margin-top: 8px;
+    align-items: center;
+
+}
+.Right-section{
+    float: left;
+    width: 20%;
+    height: 100px;
+    padding-left: 150px;
+    margin-top: 4px;
+}
+.camera-icon{
+    width: 21px;
+    height:37px;
+    padding-top: 13px;
+}
+.bell-icons{
+    width: 17px;
+    height: 20px;
+    margin-left: 15px;
+}
+.icon{
+    width: 30px;
+    height: 32px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.search-area{
+    float: left;
+    border: 1px solid;
+    width: 603px;
+    margin-left: 134px;
+    border-radius: 15px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+.mic-icon{
+    width: 25px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.search-bar{
+    width: 550px;
+    height: 30px;
+    border: 0;
+    border: transparent;
+    justify-content: center;
+    font-size: 15px;
+    margin-left:10px ;
+    display: flex;
+    outline: 0;
+    float: left;
+    padding-top: 10px;
+}
+.search-icon{
+    width: 31px;
+    margin-top: 5px;
+    background: white;
+    padding-left: 4px;
+}
+.sidebar{
+    background: #fff;
+    width: 17%;
+    height: 1900px;
+    margin-left: 2px;
+    float: left;
+    position: fixed;
+    overflow: hidden;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    float: left;
+    position: sticky;
+}
+.shortcut-links{
+    margin-left: 25px;
+}
+.Home-image{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+}
+.link0{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    position: absolute;
+    padding-top: 10px;
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    position: absolute;
+
+}
+.div1{
+    background-color:#f2f2f2;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    
+}
+.div1:hover{
+    cursor: pointer;
+    background-color:#e6e6e6;
+}
+.stylediv2{
+    background-color:#fff;
+    width: 200px;
+    height: 36px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+}
+.stylediv2:hover{
+    background-color:#f2f2f2 ;
+}
+.shorts-image{
+    width: 20px;
+    height: 5px;
+}
+.Subscription-image{
+    width: 28px;
+    height: 19px;
+}
+.para-class{
+    margin-top: 8px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+    position: absolute;
+}
+.paragraph{
+    background-color:#fff;
+    width: 200px;
+    height: 36px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.hr-style{
+    border-top:1px solid #e6e6e6;
+}
+.style-settings{
+    background-color:#fff;
+    width: 200px;
+    height: 36px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.style-settings:hover{
+    background-color:#f2f2f2 ;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    float: left;
+}
+.para1{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    color: gray;
+    align-items: center;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.h5:hover{
+    cursor: text;
+}
+.centre-body{
+    width: 85%;
+    height: 1910px;
+    background: white;
+    margin-left: 258px;
+    position: sticky;
+}
+.centrebody-menu{
+    height: 35px;
+    background: #fff;
+}
+.menu-button{
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:#f2f2f2;
+    border: 0;
+}
+.menu-button:hover{
+    cursor: pointer;
+    background-color:#e6e6e6;   
+}
+.All-button{
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:#f2f2f2;
+    border: 0;
+}
+.All-button:hover{
+    cursor: pointer;
+    background-color:#e6e6e6;   
+}
+.web-button{
+    align-items: center;
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:#f2f2f2;
+    border: 0;
+}
+.web-button:hover{
+    cursor: pointer;
+    background-color:#e6e6e6;   
+}
+.button{
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: bold;
+    background-color:#f2f2f2;
+    border: 0;
+}
+.button:hover{
+    cursor: pointer;
+    background-color:#e6e6e6;   
+}
+.main-button{
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.list-container{
+    height: 1880px;
+    background: white;
+    overflow: hidden;
+}
+.creator{
+    float: left;
+}
+.thumbnail-div{
+    width: 405px;
+    float: left;
+}
+.thumbnail{
+    width:400px;
+    margin-top: 25px;
+}
+.thumbnail:hover{
+    border-radius: 10px;
+}
+.image{
+    width: 40px;
+    float: left;
+}
+.vid-info{
+    background: white;
+    height: 70px;
+    width: 360px;
+    overflow: hidden;
+    float: left;
+
+}
+.discription{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+
+}
+.discription1{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+    
+}
+.dots{
+    width: 28px;
+    
+}
+
